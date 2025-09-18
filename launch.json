@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Mini Nmap",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["127.0.0.1", "-p", "80,443"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
